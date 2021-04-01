@@ -8,15 +8,17 @@ import Counter from "./components/Counter";
 import FunctionClick from "./components/FunctionClick";
 import ClassClick from "./components/ClassClick"
 import EventBind from "./components/EventBind"
+import ParentComponent from "./components/ParentComponent"
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <FunctionClick/>
+        <ParentComponent/>
+        {/*<FunctionClick/>
         <ClassClick/>
         <EventBind/>
-        {/*<Counter/>
+        <Counter/>
         <Message/>
           <Greet name="NameOne" nikName="One">
             <p>This is child props</p>
