@@ -1,13 +1,12 @@
 import React, { Component } from "react";
 import "./App.css";
-
-import RefComp from "./components/RefComp";
+import FocusInput from "./components/FocusInput";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <RefComp/>
+        <FocusInput/>
       </div>
     );
   }
